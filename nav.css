@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.nav-enlace{
+    background-color: rgb(100, 100, 185);
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: inline-block;
+}
+nav{
+    background-color: rgb(115,230,135);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media(max-width:600px){
+    nav{
+        background-color: black;
+        flex-direction: column;
+    }
+    .nav-enlace{
+        margin: 10px 0px;
+        color:orange;
+    }
+}
